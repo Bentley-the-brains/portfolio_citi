@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f2f2f2;
+  color: #333;
+}
+
+header {
+  background-color: #04f004;
+  padding: 15px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.foto img {
+  display: block;
+  max-width: 200px;
+  border-radius: 50%;
+  margin: 20px auto;
+}
+
+h1, h2 {
+  text-align: left;
+  color: #004080;
+}
+
+.contato {
+  margin-top: 30px;
+  text-align: center;
+}
+
+footer {
+  background-color: #04f004;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  vertical-align: middle;
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info .textos {
+  flex: 1;
+  min-width: 250px;
+}
+
+.info .foto img {
+  max-width: 200px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.historico img {
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+
+nav ul li a.active {
+  border-bottom: 2px solid white;
+}
+
